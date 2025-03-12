@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen, cartItemCoun
           </div>
 
           <div className="flex-shrink-0 flex items-center space-x-2">
-            <img src="/assets/miniatura.png" alt="Next Level Logo" className="h-20 w-20" />
+            <img src="/assets/logo-rosa.png" alt="Next Level Logo" className="h-20 w-20" />
             <h1 className="text-2xl font-bold text-primary-500">Indumentarias</h1>
           </div>
 
