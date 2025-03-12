@@ -10,8 +10,8 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen, cartItemCount }) => {
   return (
     <nav className="bg-white shadow-sm relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px- lg:px-8">
+        <div className="flex justify-between items-center h-24">
           <div className="flex items-center">
             <button 
               className="p-2 rounded-md text-gray-600 lg:hidden"
@@ -27,9 +27,11 @@ const Navbar: React.FC<NavbarProps> = ({ isMenuOpen, setIsMenuOpen, cartItemCoun
             </div>
           </div>
 
-          <div className="flex-shrink-0 flex items-center">
-            <h1 className="text-2xl font-bold text-primary-500">Next Level</h1>
+          <div className="flex-shrink-0 flex items-center space-x-2">
+            <img src="/assets/miniatura.png" alt="Next Level Logo" className="h-20 w-20" />
+            <h1 className="text-2xl font-bold text-primary-500">Indumentarias</h1>
           </div>
+
 
           <div className="flex items-center space-x-4">
             <button className="p-2 rounded-md text-gray-600 hover:text-primary-500">
